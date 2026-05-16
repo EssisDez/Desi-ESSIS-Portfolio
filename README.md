@@ -1,16 +1,79 @@
-# React + Vite
+# Dési Essis Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern professional portfolio focused on Data Science, Artificial Intelligence, Business Intelligence, and Analytics.
 
-Currently, two official plugins are available:
+This portfolio showcases technical and analytical projects developed in finance, marketing, and supply chain management while combining business strategy with data-driven solutions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About The Portfolio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio was designed to present projects, technical skills, and analytical capabilities in a clean and modern interface inspired by professional developer and data scientist portfolios.
 
-## Expanding the ESLint configuration
+The website features:
+- Fixed sidebar layout
+- Responsive modern UI
+- Smooth animations
+- Project showcase cards
+- Professional analytics-focused design
+- Recruiter-friendly structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Featured Projects
+
+### Banking Application Analysis
+Analytics project focused on banking operations, customer insights, and financial data interpretation.
+
+### Marketing Analysis
+Business intelligence and marketing performance analysis project using visualization and reporting techniques.
+
+### Supply Chain Management
+Supply chain and logistics analytics project focused on operational optimization and data analysis.
+
+---
+
+## Technologies Used
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+### Data & Analytics
+- Python
+- SQL
+- Power BI
+- Tableau
+- Pandas
+- NumPy
+
+---
+
+## Objectives
+
+- Build a strong professional technical portfolio
+- Showcase real-world analytics projects
+- Demonstrate business and technical skills
+- Create a modern recruiter-ready personal brand
+
+---
+
+## Future Improvements
+
+- Deployment of live portfolio
+- Additional AI and Machine Learning projects
+- Interactive dashboards
+- Advanced animations
+- Mobile optimization improvements
+- Case study pages for projects
+
+---
+
+## Author
+
+Dési Essis
+
+MBA • Data Science & AI  
+Analytics • Finance • Business Intelligence
