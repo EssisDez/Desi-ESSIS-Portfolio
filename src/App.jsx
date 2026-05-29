@@ -23,13 +23,13 @@ export default function App() {
       <aside className="w-[30%] h-screen sticky top-0 bg-white border-r border-gray-200 p-8">
 
         <img
-          src="https://randomuser.me/api/portraits/women/44.jpg"
+          src="/picturepro.jpeg"
           alt="profile"
           className="w-40 h-40 rounded-full object-cover mx-auto border-4 border-emerald-500"
         />
 
         <h1 className="text-4xl font-bold mt-6 text-center">
-          Dési Essis
+          Désirée ESSIS
         </h1>
 
         <p className="text-emerald-600 text-center mt-2">
@@ -37,7 +37,8 @@ export default function App() {
         </p>
 
         <p className="text-gray-600 mt-6 text-center leading-7">
-          Passionate about analytics, AI, and business intelligence.
+          MBA candidate in Data Science & AI with experience in Product Ownership and PMO within insurance and banking environments. Passionate about data analytics, digital transformation, and using technology to drive business solutions.
+
         </p>
 
         {/* SOCIALS */}
@@ -59,40 +60,13 @@ export default function App() {
             <FaLinkedin />
           </a>
 
-          <a href="mailto:youremail@gmail.com">
+          <a href="mailto:desireeessis@gmail.com">
             <FaEnvelope />
           </a>
 
         </div>
 
-        {/* SKILLS */}
-        <div className="mt-12">
-
-          <h2 className="text-xl font-bold mb-4">
-            Skills
-          </h2>
-
-          <div className="flex flex-wrap gap-3">
-
-            <span className="bg-emerald-100 px-4 py-2 rounded-full">
-              Python
-            </span>
-
-            <span className="bg-emerald-100 px-4 py-2 rounded-full">
-              SQL
-            </span>
-
-            <span className="bg-emerald-100 px-4 py-2 rounded-full">
-              Power BI
-            </span>
-
-            <span className="bg-emerald-100 px-4 py-2 rounded-full">
-              Tableau
-            </span>
-
-          </div>
-
-        </div>
+        
 
       </aside>
 
