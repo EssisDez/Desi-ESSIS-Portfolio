@@ -1,5 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
+
+
 const projects = [
   {
     title: "Bank Application Analysis",
@@ -17,10 +19,10 @@ const projects = [
 
 export default function App() {
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex flex-col md:flex-row min-h-screen bg-gray-100">
 
       {/* LEFT SIDEBAR */}
-      <aside className="w-[30%] h-screen sticky top-0 bg-white border-r border-gray-200 p-8">
+      <aside className="w-full md:w-[30%] md:h-screen md:sticky top-0 bg-white border-r border-gray-200 p-6 md:p-8">
 
         <img
           src="/picturepro.jpeg"
@@ -71,11 +73,11 @@ export default function App() {
       </aside>
 
       {/* RIGHT CONTENT */}
-      <main className="w-[70%] p-12 overflow-y-auto">
+      <main className="w-full md:w-[70%] p-6 md:p-12">
 
         <section>
 
-          <h2 className="text-5xl font-bold leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold leading-tight">
             Building intelligent solutions with data.
           </h2>
 
@@ -93,7 +95,7 @@ export default function App() {
             Featured Projects
           </h2>
 
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
 
             {projects.map((project, index) => (
 
@@ -126,6 +128,8 @@ export default function App() {
           </div>
 
         </section>
+
+      
 
       </main>
 
