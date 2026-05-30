@@ -6,14 +6,17 @@ const projects = [
   {
     title: "Bank Application Analysis",
     desc: "Data analysis project focused on banking operations and customer analytics.",
+    link: "https://github.com/EssisDez/Banking-Application.git"
   },
   {
     title: "Marketing Analysis",
     desc: "Marketing insights dashboard and campaign performance analysis.",
+    link: "https://github.com/EssisDez/marketing_analytics_ai_project.git"
   },
   {
     title: "Supply Chain Management",
     desc: "Supply chain optimization and logistics analytics project.",
+    link: "https://github.com/EssisDez/Supply_Chain_Analysis.git"
   },
 ];
 
@@ -115,10 +118,12 @@ export default function App() {
                 </p>
 
                 <a
-                  href="#"
-                  className="inline-block mt-6 text-emerald-600 font-semibold"
-                >
-                  View Project →
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block mt-6 text-emerald-600 font-semibold hover:underline"
+                  >
+                 View Project →
                 </a>
 
               </div>
