@@ -11,8 +11,9 @@ const projects = [
   },
   {
     title: "Marketing Analysis",
-    desc: "Marketing insights dashboard and campaign performance analysis.",
-    link: "https://github.com/EssisDez/marketing_analytics_ai_project.git"
+    desc: "A marketing analytics project that combines customer segmentation, sales forecasting, and AI-driven recommendations to support business decision-making",
+    link: "https://github.com/EssisDez/marketing_analytics_ai_project.git",
+    image: "/sales_forecast.png",
   },
   {
     title: "Supply Chain Management",
