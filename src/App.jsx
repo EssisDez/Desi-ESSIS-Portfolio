@@ -4,9 +4,10 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Bank Application Analysis",
-    desc: "Data analysis project focused on banking operations and customer analytics.",
-    link: "https://github.com/EssisDez/Banking-Application.git"
+    title: "Banking Profitability Optimization",
+    desc: "Developed a mathematical optimization model to maximize Net Interest Income while accounting for borrower default risk",
+    link: "https://github.com/EssisDez/Banking-Application.git",
+    image: "/nii_analysis.png",
   },
   {
     title: "Marketing Analysis",
@@ -15,8 +16,9 @@ const projects = [
   },
   {
     title: "Supply Chain Management",
-    desc: "Supply chain optimization and logistics analytics project.",
-    link: "https://github.com/EssisDez/Supply_Chain_Analysis.git"
+    desc: "Analyzed inventory, supplier performance, and logistics operations to identify cost-saving opportunities and improve supply chain efficiency through data-driven optimization",
+    link: "https://github.com/EssisDez/Supply_Chain_Analysis.git",
+    image: "/supplier_by_sales.png",
   },
 ];
 
@@ -107,7 +109,10 @@ export default function App() {
                 className="bg-white rounded-3xl overflow-hidden border border-gray-200 shadow-sm p-6"
               >
 
-                <div className="h-48 bg-gray-200 rounded-2xl"></div>
+                <img
+                   src={project.image}
+                   alt={project.title}
+                   className="h-48 w-full object-cover rounded-2xl"/>
 
                 <h3 className="text-2xl font-bold mt-6">
                   {project.title}
