@@ -21,6 +21,12 @@ const projects = [
     link: "https://github.com/EssisDez/Supply_Chain_Analysis.git",
     image: "/supplier_by_sales.png",
   },
+  {
+    title: "Industrial Maintenance Analytics",
+    desc: "This platform helps industrial operations teams monitor machine reliability, detect operational risks, and optimize maintenance planning",
+    link: "https://github.com/EssisDez/Industrial_Maintenance_Analytics.git",
+    image: "/6b3141a1cb1fc48c8880855b71d613e4.jpg",
+  },
 ];
 
 export default function App() {
