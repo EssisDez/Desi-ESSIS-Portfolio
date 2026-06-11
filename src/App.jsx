@@ -4,6 +4,18 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const projects = [
   {
+    title: "Customer Churn Prediction (Power BI + ML)",
+    desc: "Developed a mathematical optimization model to maximize Net Interest Income while accounting for borrower default risk",
+    link: "https://github.com/EssisDez/Customer-Churn-Prediction-Power-BI-ML-.git",
+    image: "/nii_analysis.png",
+  },
+  {
+    title: "E-Commerce Executive Dashboard (Tableau)",
+    desc: "A marketing analytics project that combines customer segmentation, sales forecasting, and AI-driven recommendations to support business decision-making",
+    link: "https://github.com/EssisDez/marketing_analytics_ai_project.git",
+    image: "/sales_forecast.png",
+  },
+  {
     title: "Banking Profitability Optimization",
     desc: "Developed a mathematical optimization model to maximize Net Interest Income while accounting for borrower default risk",
     link: "https://github.com/EssisDez/Banking-Application.git",
