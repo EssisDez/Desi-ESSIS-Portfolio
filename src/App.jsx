@@ -5,9 +5,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const projects = [
   {
     title: "Customer Churn Prediction (Power BI + ML)",
-    desc: "Developed a mathematical optimization model to maximize Net Interest Income while accounting for borrower default risk",
+    desc: "Built a machine learning model to predict customer churn using banking customer data. Conducted exploratory data analysis, trained a Random Forest classifier, and developed a Power BI dashboard to identify churn drivers and high-risk customers.",
     link: "https://github.com/EssisDez/Customer-Churn-Prediction-Power-BI-ML-.git",
-    image: "/nii_analysis.png",
+    image: "/ChurnByProduct.png",
   },
   {
     title: "E-Commerce Executive Dashboard (Tableau)",
