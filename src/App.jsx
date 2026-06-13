@@ -21,9 +21,9 @@ const projects = [
     desc: "Designed an executive dashboard to monitor sales performance, customer behavior, and key business KPIs through interactive Tableau visualizations.",
     link: "https://github.com/EssisDez/E-Commerce-Executive-Dashboard.git",
     images: [
+      "/Sale_Analysis.jpeg",
       "/SalesTrendOverTime.jpeg",
-      "/sales_forecast.png",
-      "/sales_forecast.png",
+      "/Sales by Category.jpeg",
     ],
   },
   {
