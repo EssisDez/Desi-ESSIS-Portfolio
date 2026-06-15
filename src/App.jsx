@@ -18,7 +18,7 @@ const projects = [
   {
     title: "E-Commerce Executive Dashboard (Tableau)",
     tools: ["Tableau", "Business Analytics", "Data Visualization"],
-    desc: "Designed an executive dashboard to monitor sales performance, customer behavior, and key business KPIs through interactive Tableau visualizations.",
+    desc: "Developed an interactive Tableau dashboard to analyze global e-commerce performance, tracking sales, profit, customer segments, product performance, and operational metrics. The project delivers actionable insights to support strategic business decisions and improve profitability",
     link: "https://github.com/EssisDez/E-Commerce-Executive-Dashboard.git",
     images: [
       "/ExecutiveOverview.jpeg",
@@ -60,18 +60,7 @@ const projects = [
       "/supply_chain_flow.png",
     ],
   },
-  {
-    title: "Industrial Maintenance Analytics",
-    tools: ["Power BI", "Predictive Analytics", "KPI Monitoring"],
-    desc: "This platform helps industrial operations teams monitor machine reliability, detect operational risks, and optimize maintenance planning",
-    link: "https://github.com/EssisDez/Industrial_Maintenance_Analytics.git",
-    images: [
-      "/6b3141a1cb1fc48c8880855b71d613e4.jpg",
-      "/6b3141a1cb1fc48c8880855b71d613e4.jpg",
-      "/6b3141a1cb1fc48c8880855b71d613e4.jpg",
-
-    ],
-  },
+  
 ];
 
 export default function App() {
